@@ -231,6 +231,10 @@ http.port: {{ elasticsearch_http_port }}
 #
 #http.enabled: false
 
+# CORS
+http.cors.enabled: {{ elasticsearch_cors_enable }}
+http.cors.allow-origin: "{{ elasticsearch_cors_allow_origin }}"
+
 
 ################################### Gateway ###################################
 
