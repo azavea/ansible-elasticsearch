@@ -4,7 +4,7 @@ An Ansible role for installing [ElasticSearch](http://www.elasticsearch.org/).
 
 ## Role Variables
 
-- `elasticsearch_version` - Kibana version to install (default: `1.4.4`)
+- `elasticsearch_version` - ElasticSearch version to install (default: `1.4.4`)
 - `elasticsearch_cluster_name` - ElasticSearch cluster name (default: `elasticsearch`)
 - `elasticsearch_bind_host` - Address ElasticSearch binds to (default: `0.0.0.0`)
 - `elasticsearch_tcp_port` - TCP port ElasticSearch binds to (default: `9300`)
