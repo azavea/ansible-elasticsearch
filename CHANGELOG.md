@@ -1,3 +1,7 @@
+## 0.3.0
+
+- Add support to install elasticsearch cloud plugin
+
 ## 0.2.0
 
 - Add support for CORS over the HTTP endpoint.

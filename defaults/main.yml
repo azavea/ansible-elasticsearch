@@ -6,3 +6,5 @@ elasticsearch_tcp_port: "9300"
 elasticsearch_http_port: "9200"
 elasticsearch_cors_enable: "false"
 elasticsearch_cors_allow_origin: "*"
+elasticsearch_cloud_aws_plugin_install: false
+elasticsearch_cloud_aws_plugin_version: "2.4.1"
