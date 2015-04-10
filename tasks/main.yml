@@ -17,3 +17,9 @@
 
 - name: Enable ElasticSearch service
   service: name=elasticsearch enabled=yes state=started
+
+- name: Install ElasticSearch Cloud Plugin
+  command: bin/plugin install elasticsearch/elasticsearch-cloud-aws/{{ elasticsearch_cloud_aws_plugin_version }}
+           chdir=/usr/share/elasticsearch
+           creates=/usr/share/elasticsearch/plugins/cloud-aws/elasticsearch-cloud-aws-{{ elasticsearch_cloud_aws_plugin_version }}.jar
+  when: elasticsearch_cloud_aws_plugin_install
