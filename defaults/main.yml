@@ -1,7 +1,9 @@
 ---
-elasticsearch_version: "1.4.4"
+elasticsearch_version: "2.2.0"
+elasticsearch_short_version: "2.x"
 elasticsearch_cluster_name: "elasticsearch"
-elasticsearch_bind_host: "0.0.0.0"
+elasticsearch_data_dir: "/var/lib/elasticsearch"
+elasticsearch_bind_host: "127.0.0.1"
 elasticsearch_tcp_port: "9300"
 elasticsearch_http_port: "9200"
 elasticsearch_cors_enable: "false"

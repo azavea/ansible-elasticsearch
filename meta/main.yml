@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Hector Castro
-  description: An Ansible role for installing ElasticSearch.
+  description: An Ansible role for installing Elasticsearch.
   company: Azavea Inc.
   license: Apache
   min_ansible_version: 1.2
